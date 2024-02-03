@@ -53,7 +53,7 @@ import * as utils from './utils'
 dayjs.extend(localizedFormat)
 
 export interface GiftedChatProps<TMessage extends IMessage = IMessage> {
-  /* Message container ref */
+  /* Message container 111 ref */
   messageContainerRef?: React.RefObject<FlatList<IMessage>>
   /* text input ref */
   textInputRef?: React.RefObject<TextInput>
